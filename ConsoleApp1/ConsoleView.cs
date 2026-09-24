@@ -12,5 +12,17 @@ namespace ConsoleApp1
         {
             Console.WriteLine(item.GetDescription());
         }
+        public void ShowMessage(string message)
+        {
+            Console.WriteLine(message);
+        }
+        public void ShowItems(List<MenuItem> list)
+        {
+            foreach (MenuItem item in list)
+            {
+                Console.WriteLine(item.GetDescription());
+            }
+        }
+        public 
     }
 }
